@@ -1,0 +1,22 @@
+{
+    "body": {
+        "buttons-toggle": {},
+        "view-records": {
+            "en": "Observations",
+            "i18n": "saved-records:view_records"
+        },
+        "buttons-normal": {
+            "upload": {
+                "id": "saved-records-page-header-upload",
+                "class": "sync-upload-button",
+                "data-role": "button",
+                "data-inline": "true",
+                "data-transition": "none",
+                "data-iconpos": "notext",
+                "data-shadow": "false",
+                "data-iconshadow": "false",
+                "style": ""
+            }
+        }
+    }
+}

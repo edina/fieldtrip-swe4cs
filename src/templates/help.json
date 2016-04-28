@@ -1,0 +1,17 @@
+{
+    "body": {
+        "section1": {
+            "items": {
+                "item1": {
+                    "div": {"class": "ui-block-a"},
+                    "a": {"href": "#", "onclick": "window.open('https://docs.google.com/viewer?url=http://dlib-terzis.ucs.ed.ac.uk:8151/rspb.pdf&embedded=true', '_blank', 'location=no');"},
+                    "img": {
+                        "src": "css/images/pdf.png",
+                        "alt": "Help"
+                    },
+                    "title": "RSPB Doc"
+                }
+            }
+        }
+    }
+}

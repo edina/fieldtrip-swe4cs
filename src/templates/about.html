@@ -1,0 +1,34 @@
+<div id="about-page" data-role="page" data-theme="a" class="about-page">
+
+    {{header}}
+
+      <div id="about-content" class="non-map-body ui-content" role="main">
+      {% for key, sections in body.iteritems() %}
+        {% if sections.title.en is defined %}
+        <div id="about-page-{{sections.title.en.replace(' ', '-').lower()}}">
+          <h2 data-i18n="{{ sections.title.i18n }}">{{ sections.title.en }}</h2>
+          {% if sections|length > 0 %}
+          <div class="nav-icons ui-grid-{{ _get_letter(sections["items"]) }}">
+            {% for item in sections["items"] %}
+              {% if sections["items"][item].keys()|length > 0 %}
+              <div {% for key, value in sections["items"][item]["div"].iteritems() %} {{key}}="{{value}}" {% endfor %}>
+                <a {% for key, value in sections["items"][item]["a"].iteritems() %} {{key}}="{{value}}" {% endfor %}>
+                  <img {% for key, value in sections["items"][item]["img"].iteritems() %} {{key}}="{{value}}" {% endfor %}>
+                </a>
+                <p data-i18n="{{sections["items"][item].i18n}}">
+                   {{sections["items"][item].title}}
+                </p>
+              </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        {% endif %}
+        {% endfor %}
+        {{popups}}
+      </div>
+
+    {{footer}}
+
+</div>

@@ -1,0 +1,89 @@
+{
+
+    "body": {
+        "section1": {
+            "title": {
+                "i18n": "project:section_help",
+                "en": "Help"
+            },
+            "items": {
+                "item3": {
+                    "div": {"class": "ui-block-c help-block"},
+                    "a": {"href": "settings.html"},
+                    "img": {
+                        "src": "css/images/settings.png",
+                        "alt": "Settings"
+                    },
+                    "i18n": "index:settings",
+                    "title": "Settings"
+                }
+            }
+        },
+        "section2": {
+            "title": {
+                "i18n": "index:section_development",
+                "en": "Development"
+            },
+            "items": {
+                "item1": {
+                    "div": {
+                        "class": "ui-block-a"
+                    },
+                    "a": {"href": "settings.html"},
+                    "img": {
+                        "src": "css/images/settings.png",
+                        "alt": "Settings"
+                    },
+                    "i18n": "index:settings",
+                    "title": "Settings"
+                },
+                "item2": {
+                    "div": {
+                        "id": "home-unit-test-but",
+                        "class": "ui-block-b"
+                    },
+                    "a": {
+                        "href": "#",
+                        "class": "test-page-but"
+                    },
+                    "img": {
+                        "src": "css/images/settings.png",
+                        "alt": "Tests"
+                    },
+                    "i18n": "index:unit_tests",
+                    "title": "Unit Tests"
+                },
+                "item3": {
+                    "div": {
+                        "class": "ui-block-c"
+                    },
+                    "a": {
+                        "href": "#",
+                        "class": "test-page-but"
+                    },
+                    "img": {
+                        "src": "css/images/settings.png",
+                        "alt": "System Tests"
+                    },
+                    "i18n": "index:system_tests",
+                    "title": "System Tests"
+                },
+                "item4": {
+                    "div": {
+                        "class": "ui-block-d"
+                    },
+                    "a": {
+                        "id": "test-create-records-but",
+                        "href": "#"
+                    },
+                    "img": {
+                        "src": "css/images/settings.png",
+                        "alt": "Misc Test"
+                    },
+                    "i18n": "index:create_records",
+                    "title": "Create Records"
+                }
+            }
+        }
+    }
+}

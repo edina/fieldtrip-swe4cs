@@ -1,0 +1,19 @@
+{
+    "home": {
+
+    },
+    "download": {
+        "name": "Download / Upload",
+        "data-i18n": "footer:download_upload",
+        "href": "download.html",
+        "class": "download-button fieldtrip-btn",
+        "data-icon": "custom"
+    },
+    "about": {
+        "name": "About",
+        "data-i18n": "footer:about",
+        "href": "about.html",
+        "class": "about-button fieldtrip-btn",
+        "data-icon": "custom"
+    }
+}

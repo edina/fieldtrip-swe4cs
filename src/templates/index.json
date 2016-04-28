@@ -1,0 +1,54 @@
+{
+    "body": {
+        "section1": {
+            "title": "",
+            "items": {
+            }
+        },
+        "section2": {
+            "title": "",
+            "items": {
+            }
+        },
+        "section3": {
+            "title": "",
+            "items": {
+
+            }
+        }
+    },
+    "popups": {
+        "popup1":{
+            "template": "index-exit-popup.html",
+            "data": {
+                "question": {
+                    "i18n": "index:exit_confirmation",
+                    "default": "Are you sure you want to exit COBWEB app?"
+                },
+                "cancel": {
+                    "i18n": "common:cancel",
+                    "default": "Cancel"
+                },
+                "exit": {
+                    "i18n": "common:exit",
+                    "default": "Exit"
+                }
+            }
+        },
+        "popup2":{
+            "template": "index-eula-popup.html",
+            "data": {
+                "app_name": "Fieldtrip COBWEB",
+                "license": "https://docs.google.com/viewer?url=https://dyfi.cobwebproject.eu/geonetwork/catalog/views/cobweb/COBWEB-EULA.pdf&embedded=true",
+                "logo1": "<img src=\"theme/css/images/eu.jpg\" alt=\"EU logo\">"
+            }
+        },
+        "popup3":{
+            "template": "index-splash-popup.html",
+            "data": {
+                "app_name": "Fieldtrip COBWEB",
+                "logo1": "<img src=\"theme/css/images/eu.jpg\" alt=\"EU logo\">"
+            }
+        }
+    }
+}

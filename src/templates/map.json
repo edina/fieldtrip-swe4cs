@@ -1,0 +1,24 @@
+{
+    "header": {
+        "buttons" : {
+            "map-download":{
+                "class": "map-download",
+                "href": "save-map.html",
+                "data-role": "button",
+                "data-inline": "true",
+                "data-transition": "none",
+                "data-iconpos": "notext"
+            }
+        }
+    },
+    "body": {
+        "list": {
+            "i18n": "map:list_records",
+            "en": "List Observations"
+        },
+        "records": {
+            "i18n": "map:records",
+            "en": "Observations"
+        }
+    }
+}

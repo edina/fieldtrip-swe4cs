@@ -1,0 +1,98 @@
+{
+    "body":{
+        "section1":{
+            "title": "",
+            "items":{
+                "item1": {
+                    "div": {
+                        "class": "ui-block-c sync-login",
+                        "id": "home-content-login"
+                    },
+                    "a": {"href": "#"},
+                    "img": {
+                        "src": "plugins/sync/css/images/login-large.png",
+                        "alt": "Login"
+                    },
+                    "title": {
+                        "i18n": "project:login",
+                        "default": "Login"
+                    }
+                }
+            }
+        },
+        "section2":{
+            "title": "",
+            "items":{
+                "item1": {
+                    "div": {
+                        "class": "ui-block-a"
+                    },
+                    "a": {
+                        "class": "download-public-forms",
+                        "href": "#"
+                    },
+                    "img": {
+                        "src": "plugins/sync/css/images/download-editors.png",
+                        "alt": "Download Forms"
+                    },
+                    "title": {
+                        "i18n": "project:public_surveys",
+                        "default": "Public Surveys"
+                    }
+                },
+                "item2": {
+                    "div": {
+                        "class": "ui-block-c sync-show sync-download-button",
+                        "style": "display:none;"
+                    },
+                    "a": {
+                        "class": "annotate-text-form",
+                        "href": "#"
+                    },
+                    "img": {
+                        "src": "plugins/sync/css/images/download-editors.png",
+                        "alt": "Download Editors"
+                    },
+                    "title": {
+                        "i18n": "project:registered_surveys",
+                        "default": "Registered Surveys"
+                    }
+                },
+                "item3": {
+                    "div": {
+                        "class": "ui-block-c sync-download-layers-button"
+                    },
+                    "a": {
+                        "class": "annotate-text-form",
+                        "href": "saved-layers.html"
+                    },
+                    "img": {
+                        "src": "plugins/overlays/css/images/maplayers.png",
+                        "alt": "Download Layers"
+                    },
+                    "title": {
+                        "i18n": "project:download_layers",
+                        "default": "Download Layers"
+                    }
+                }
+            }
+        },
+        "section3":{
+            "title": "",
+            "items":{
+                "item1": {
+                    "div": {"class": "ui-block-a"},
+                    "a": {"href": "saved-records.html"},
+                    "img": {
+                        "src": "theme/css/images/documents.png",
+                        "alt": "View Records"
+                    },
+                    "title": {
+                        "i18n": "common:records",
+                        "default": "Observations"
+                    }
+                }
+            }
+        }
+    }
+}
