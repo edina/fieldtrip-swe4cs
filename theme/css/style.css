@@ -1,0 +1,133 @@
+/********* Non map page *********/
+
+.non-map-body{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #e3e1da;
+    background-image: url("images/background.png");
+    color: #304820;
+}
+
+.ui-header h1{
+    background-image: url("../css/images/icon.png");
+}
+
+.download-button:after {
+    background: url("../css/images/download.png") 50% 50% no-repeat;
+}
+
+.about-button:after {
+    background: url("../css/images/icon.png") 50% 50% no-repeat;
+}
+
+/********* map searching *********/
+
+#map-search-popup .ui-btn-up-a {
+    background: white;
+    border: none;
+    text-shadow: none;
+}
+
+#map-search-popup .ui-btn-up-a:visited,
+#map-search-popup .ui-btn-up-a a.ui-link-inherit {
+    color: #2C3F62;
+}
+
+#map-search-spinner{
+    position: relative;
+    float: right;
+    top: -3.4em;
+    right: 0.3em;
+}
+
+#map-search-spinner img{
+    height: 2.5em;
+    width: 2.5em;
+}
+
+#map-search-popup ui{
+    max-height: 200;
+}
+
+
+/********* Help *************/
+
+#help-div .ui-btn{
+    top: 2px;
+    width: 6em;
+    height: 80%;
+}
+
+.help-block{
+    float: right;
+    margin-right: 30px !important;
+}
+
+.help-content{
+    padding: 10px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.help-content img{
+    max-width: 100%;
+    padding: 5px;
+}
+
+.help-content img:active{
+    box-shadow: none !important;
+}
+
+.help-content figcaption{
+    font-style: bolder;
+    font-weight: bold;
+}
+
+.help-content figure{
+    text-align: center;
+}
+
+/********* Records Page *************/
+#saved-records-page-header .ui-block-c{
+    width: 8em;
+}
+
+#saved-records-page-header,
+#saved-records-page-header h2{
+    background: #699f41;
+}
+
+/*********** Position tracking plugin ***********/
+#position-tracking-title {
+    color: white;
+    background: #699f41;
+    font-weight: normal;
+}
+
+/****Hack for the bug with the menu****/
+/* Button down */
+#home-page .ui-page-theme-a .ui-btn:active,
+html .ui-bar-a .ui-btn:active,
+html .ui-body-a .ui-btn:active,
+html body .ui-group-theme-a .ui-btn:active,
+html head + body .ui-btn.ui-btn-a:active,
+#dtree-prev:hover, #dtree-next:hover{
+    background-color: #639e42 /*{a-bup-background-color}*/;
+    border-color: #000000 /*{a-bup-border}*/;
+    color: #ffffff /*{a-bup-color}*/;
+    text-shadow: 0 /*{a-bup-shadow-x}*/ 0px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #ffffff /*{a-bup-shadow-color}*/;
+}
+
+#dtree-form .ui-radio > label:hover{
+    background-color: #eeeeee /*{b-bup-background-color}*/;
+    border-color: #cccccc /*{b-bup-border}*/;
+    color: #2f3e46 /*{b-bup-color}*/;
+    text-shadow: 0 /*{b-bup-shadow-x}*/ 0px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/ #ffffff /*{b-bup-shadow-color}*/;
+}
+
+/* Override notification drawer color*/
+.notification-drawer > div{
+    color: white;
+    background-color: rgba(140, 198, 63, 0.95);
+}
