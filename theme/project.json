@@ -1,23 +1,23 @@
 {
     "versions":{
         "core": "cobweb",
-        "project": "swe4cs"
+        "project": "0.0.1"
     },
     "plugins":{
         "cordova": [
-            "org.apache.cordova.camera@0.3.6",
-            "org.apache.cordova.console@0.2.13",
-            "org.apache.cordova.device@0.3.0",
-            "org.apache.cordova.device-orientation@0.3.11",
-            "org.apache.cordova.dialogs@0.3.0",
-            "org.apache.cordova.file@1.3.3",
-            "org.apache.cordova.file-transfer@0.5.0",
-            "org.apache.cordova.inappbrowser@0.6.0",
-            "org.apache.cordova.media@0.2.16",
-            "org.apache.cordova.media-capture@0.3.6",
-            "org.apache.cordova.plugin.softkeyboard@1.0.3",
-            "org.apache.cordova.network-information@0.2.15",
-            "org.apache.cordova.globalization@0.3.4",
+            "https://github.com/apache/cordova-plugin-camera.git#0.3.6",
+            "https://github.com/apache/cordova-plugin-console.git#0.2.13",
+            "https://github.com/apache/cordova-plugin-device.git#0.3.0",
+            "https://github.com/apache/cordova-plugin-device-orientation.git#0.3.11",
+            "https://github.com/apache/cordova-plugin-dialogs.git#0.3.0",
+            "https://github.com/apache/cordova-plugin-file.git#1.3.3",
+            "https://github.com/apache/cordova-plugin-file-transfer.git#0.5.0",
+            "https://github.com/apache/cordova-plugin-inappbrowser.git#0.6.0",
+            "https://github.com/apache/cordova-plugin-media.git#0.2.16",
+            "https://github.com/apache/cordova-plugin-media-capture.git#0.3.6",
+            "https://github.com/edina/cordova-plugin-softkeyboard#1.0.3",
+            "https://github.com/apache/cordova-plugin-network-information.git#0.2.15",
+            "https://github.com/apache/cordova-plugin-globalization.git#0.3.4",
             "https://github.com/MobileChromeApps/cordova-plugin-zip#v2.1.1",
             "https://github.com/edina/Cordova-SQLitePlugin.git#8e0bcd0",
             "https://github.com/cobweb-eu/cobweb-los-plugin.git#0.0.1",

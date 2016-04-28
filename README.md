@@ -1,4 +1,4 @@
-fieldtrip-cobweb
+fieldtrip-swe4cs
 ================
 
-A cobweb theme for fieldtrip app
+A theme for swe4cs fieldtrip app
