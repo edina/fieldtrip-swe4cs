@@ -1,7 +1,7 @@
 {
     "versions":{
-        "core": "cobweb",
-        "project": "0.0.3"
+        "core": "swe4cs",
+        "project": "0.0.4"
     },
     "plugins":{
         "cordova": [
@@ -24,19 +24,19 @@
             "https://github.com/edina/cordova-plugin-activitieslist#0.0.1",
             "https://github.com/cobweb-eu/cobweb-camera-va-plugin.git#0.0.1",
             "https://github.com/cobweb-eu/cobweb-ble-plugin.git#0.0.1",
-            "https://github.com/cobweb-eu/cordova-cobweb-qa.git"
+            "https://github.com/cobweb-eu/cordova-cobweb-qa.git#0.0.4"
         ],
         "fieldtrip": {
-            "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git",
-            "map-search": "git@github.com:edina/fieldtrip-map-search.git",
-            "offline-maps": "git@github.com:edina/fieldtrip-offline-maps.git",
-            "sync": "git@github.com:edina/fieldtrip-sync.git#cobweb",
-            "overlays": "git@github.com:edina/fieldtrip-overlays.git",
-            "extend-record": "git@github.com:edina/fieldtrip-extend-record.git",
-            "decision-tree": "git@github.com:edina/fieldtrip-decision-tree.git",
-            "camera-va": "git@github.com:edina/fieldtrip-camera-va.git",
-            "position-tracking": "git@github.com:edina/fieldtrip-position-tracking.git",
-            "ble": "git@github.com:cobweb-eu/fieldtrip-ble.git"
+            "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git#0.7.0",
+            "map-search": "git@github.com:edina/fieldtrip-map-search.git#0.5.0",
+            "offline-maps": "git@github.com:edina/fieldtrip-offline-maps.git#0.5.3",
+            "sync": "git@github.com:edina/fieldtrip-sync.git#0.9.2",
+            "overlays": "git@github.com:edina/fieldtrip-overlays.git#0.3.4",
+            "extend-record": "git@github.com:edina/fieldtrip-extend-record.git#0.1.5",
+            "decision-tree": "git@github.com:edina/fieldtrip-decision-tree.git#0.3.10",
+            "camera-va": "git@github.com:edina/fieldtrip-camera-va.git#0.1.1",
+            "position-tracking": "git@github.com:edina/fieldtrip-position-tracking.git#0.2.1",
+            "ble": "git@github.com:cobweb-eu/fieldtrip-ble.git#0.0.2"
         }
     }
 }
