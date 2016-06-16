@@ -131,3 +131,8 @@ html head + body .ui-btn.ui-btn-a:active,
     color: white;
     background-color: rgba(140, 198, 63, 0.95);
 }
+
+/********* Annotate Page *************/
+#annotate-form legend{
+    font-size: 16px;
+}
